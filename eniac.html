@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Eniac</title>
+</head>
+
+<body>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item capa_2">
+                <img class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item capa_3">
+                <img class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item capa_4">
+                <img class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item capa_5">
+                <img class="d-block w-100" alt="">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Computadores na Segunda Guerra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Informacões</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="segunda_guerra.html">Segunda Guerra Mundial</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Computadores
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="enigma.html">Enigma</a></li>
+                                <li><a class="dropdown-item" href="bombe.html">Bombe</a></li>
+                                <li><a class="dropdown-item" href="colossus.html">Colossus</a></li>
+                                <li><a class="dropdown-item" href="eniac.html">Eniac</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="outras_tecnologias.html">Outras tecnologias</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="procurar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">procurar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container clearfix">
+            <div class="computadores">
+                <h1>Eniac</h1>
+
+                <div class="col-6">
+                    <h2>História</h2>
+                    <p>O ENIAC (Electrical Numerical Integrator and Computer) criado pelos cientistas norte-americados
+                        John Eckert e John Mauchly, da Electronic Control Company, em fevereiro de 1946,
+                        encomendado pelo exército dos Estados Unidos, a máquina servia para fazer cálculos – a palavra
+                        “computador” vem de computar, sinônimo de calcular. Apesar de ser um gigante, o ENIAC tinha uma
+                        capacidade operacional menor do que qualquer calculadora de mão vendida atualmente. A ideia era
+                        construir um computador para quebrar códigos de comunicação e realizar vários tipos de cálculos
+                        de artilharia para ajudar as tropas aliadas durante a Segunda Guerra Mundial. Porém, o ENIAC
+                        acabou sendo finalizado depois do final da guerra e foi usado nos primeiros anos da Guerra Fria,
+                        contribuindo, por exemplo, no projeto da bomba de hidrogênio.</p>
+                </div>
+
+                <div class="col-6 computadores_img">
+                    <img src="img/eniac_2.jpg" alt="">
+                </div>
+
+                <div class="col-12">
+                    <hr>
+                </div>
+
+                <div class="col-6 computadores_img">
+                    <img src="img/peças_eniac_2.jpg" alt="">
+                </div>
+
+                <div class="col-6">
+
+                    <h2>Hardware</h2>
+
+                    <p>O ENIAC tinha cerca de dois metros de altura, pesava 30 toneladas e ocupava 180 metros quadrados.
+                        Equipado com 70 mil resístores e 18 mil válvulas de vácuo que em funcionamento consumiam
+                        vorazmente 200 mil watts de energia.
+                    </p>
+
+                </div>
+
+                <div class="col-12">
+                    <hr>
+                </div>
+
+                <div class="col-6">
+                    <h2>Sistema Operacional</h2>
+
+                    <p>O sistema operacional utilizado pelo ENIAC era baseado em cartões perfurados, de forma que cada
+                        conjunto de furos representava um número ou uma operação. De acordo com a UPenn, ele realizou em
+                        10 anos mais contas do que a humanidade havia feito em toda a sua história. Ele fazia cerca de
+                        4,5 mil cálculos por segundo. A programação do ENIAC era feita através de 6.000 chaves manuais
+                        e, ao invés de ser feita através de teclas, toda a entrada de dados era feita através de cartões
+                        de cartolina perfurados, que armazenavam poucas operações cada um.</p>
+                </div>
+
+                <div class="col-6 computadores_img">
+                    <img src="img/eniac_3.jpg" alt="">
+                </div>
+
+
+                <div class="col-12">
+                    <hr>
+                </div>
+
+                <div class="col-12">
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <h5>Vídeo</h5>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"><iframe width="560" height="315" src="https://www.youtube.com/embed/6X2B8Z_DCo0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-center text-white">
+
+        <div class="container_f p-4 pb-0">
+
+            <section class="mb-4">
+
+                <a target="_blank" href="https://www.facebook.com/arthur.wernerlira/" role="button"><img
+                        src="img/facebook.png" alt=""></a>
+
+                <a target="_blank" href="https://www.google.com.br/" role="button"><img src="img/google.png" alt=""></a>
+
+
+                <a target="_blank" href="https://www.instagram.com/arthurwernerlira/" role="button"><img
+                        src="img/instagram.png" alt=""></a>
+
+                <a target="_blank" href="https://github.com/wernerliraarthur" role="button"><img src="img/github.png"
+                        alt=""></a>
+            </section>
+
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p class="Desenvolvido">Desenvolvido por: Arthur Werner Lira</p>
+            <p>© 2022 Direitos autorais: <a target="_blank"
+                    href="https://www.cnnbrasil.com.br/tecnologia/do-eniac-ao-notebook-confira-a-evolucao-dos-computadores-nas-ultimas-decadas/#:~:text=1946%20%2D%20ENIAC&text=O%20computador%20foi%20produzido%20por,testes%20de%20bal%C3%ADstica%20da%20institui%C3%A7%C3%A3o.">cnnbrasil</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

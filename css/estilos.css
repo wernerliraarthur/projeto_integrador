@@ -1,0 +1,319 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.dropdown-menu {
+    margin-bottom: 10px;
+}
+
+.carousel {
+    margin-top: 69px;
+}
+
+.d-block {
+    background-image: url(/img/capa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    height: 500px;
+}
+
+.capa_2 .d-block {
+    background-image: url(/img/capa_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+}
+
+.capa_3 .d-block {
+    background-image: url(/img/capa_3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    height: 500px;
+}
+
+.capa_4 .d-block {
+    background-image: url(/img/capa_4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 500px;
+}
+
+.capa_5 .d-block {
+    background-image: url(/img/capa_5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 500px;
+}
+
+.container_principal {
+    width: 1350px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.container {
+    width: 1140px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #9b9d9e82;
+    font-size: large;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imgsegunda_guerra {
+    margin-top: 30px;
+}
+
+.imgsegunda_guerra img {
+    margin-top: 25px;
+}
+
+.imgEnigma img {
+    margin-top: 20px;
+}
+
+.bombe img {
+    margin-top: 8px;
+}
+
+.colossus img {
+    margin-top: 18px;
+}
+
+.eniac img {
+    margin-top: 19px;
+}
+
+.outras_tecnologias img {
+    margin-top: 35px;
+}
+
+.card {
+    transition: 0.4s;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card h5 {
+    color: red;
+}
+
+.card p {
+    color: black;
+}
+
+.card:hover {
+    background-color: #9b9d9e82;
+    border: 1px black solid;
+}
+
+.col-8 {
+    border: 1px rgba(0, 0, 0, 0.093) solid;
+}
+
+.conteudo_principal .col-8 {
+    background-color: #9b9d9e82;
+    margin-top: 35px;
+    padding: 17px;
+    border-radius: 5px;
+}
+
+.conteudo_principal h1 {
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+}
+
+.conteudo_principal h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.conteudo_principal p {
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.conteudo_principal ul {
+    font-size: larger;
+    margin-bottom: 25px;
+}
+
+.conteudo_principal hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.accordion-body iframe {
+    text-align: center;
+}
+
+p.Desenvolvido {
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+footer img {
+    width: 47px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.container h1 {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+.accordion-item {
+    margin-bottom: 2px;
+}
+
+.accordion-body {
+    text-align: center;
+}
+
+.accordion-body p {
+    text-align: left;
+}
+
+.accordion-body ul {
+    text-align: left;
+}
+
+.accordion-body img {
+    width: 500px;
+}
+
+img {
+    width: 100%;
+}
+
+.computadores h2 {
+    text-align: center;
+    background-color: rgba(34, 34, 34, 0.145);
+}
+
+.col-6.computadores_img {
+    border: 2px solid #222;
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.col-6.computadores_bombe img{
+    border: 2px solid #222;
+    height: 360px;
+    object-fit: cover;
+}
+
+.computadores p {
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.computadores hr {
+    border: 2px dashed #222;
+}
+
+.computadores_img_colossus img {
+    height: 400px;
+    object-fit: cover;
+    border: 2px solid #222;
+}
+
+.col-6.listas {
+background-color: rgba(34, 34, 34, 0.145);
+padding: 0px;
+margin-top: 5px;
+padding-bottom: 122px;
+}
+
+.col-6.computadores_img.tecnologia img {
+    height: 408px;
+}
+
+/* Grade de colunas */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 32.98%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}

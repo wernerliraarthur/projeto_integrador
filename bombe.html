@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Enigma</title>
+</head>
+
+<body>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item capa_2">
+                <img class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item capa_3">
+                <img class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item capa_4">
+                <img class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item capa_5">
+                <img class="d-block w-100" alt="">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Computadores na Segunda Guerra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Informacões</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="segunda_guerra.html">Segunda Guerra Mundial</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Computadores
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="enigma.html">Enigma</a></li>
+                                <li><a class="dropdown-item" href="bombe.html">Bombe</a></li>
+                                <li><a class="dropdown-item" href="colossus.html">Colossus</a></li>
+                                <li><a class="dropdown-item" href="eniac.html">Eniac</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="outras_tecnologias.html">Outras tecnologias</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="procurar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">procurar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container clearfix">
+            <div class="computadores">
+                <h1>Bomba eletromecânica</h1>
+
+                <p>A bomba eletromecânica, ou em inglês simplesmente "Bombe" foi a designação de um equipamento
+                    eletromecânico utilizado pelos criptologistas britânicos para auxiliar na decodificação das
+                    mensagens
+                    secretas alemãs criptografadas pela máquina "Enigma", durante a Segunda Guerra Mundial.</p>
+
+                <div class="col-6">
+                    <h2>História</h2>
+
+                    <p>O desenho inicial da Bombe foi produzido em 1939 por Alan Turing. Ela foi resultado de um
+                        primeiro
+                        desenvolvimento superficial de um dispositivo criado em 1938 na Polônia pelo criptologista
+                        Marian
+                        Rejewski, que ficou conhecida por "Bomba criptológica".
+                        A Bombe foi projetada com a intenção de descobrir algumas das configurações da máquina "Enigma"
+                        nas
+                        várias redes de telecomunicações militares da Alemanha, especificamente as configurações dos
+                        seus
+                        rotores quando em uso, posições de início, palavras chave para o processo de criptografia e a
+                        posição de alguns dos fios em seus respectivos contatos.</p>
+                </div>
+
+                <div class="col-6 computadores_bombe">
+                    <img src="img/bombe.jpg" alt="">
+                </div>
+
+                <div class="col-12">
+                    <hr>
+                </div>
+
+                <div class="col-6 computadores_bombe">
+                    <img src="img/bombe_hardware.jpg" alt="">
+                </div>
+
+                <div class="col-6">
+                    <h2>Hardware</h2>
+
+                    <p>A Bombe era um enorme computador eletromecânico que pesava quase uma tonelada e tinha cerca de
+                        1,80 m altura. Na parte frontal da máquina, havia 108 eixos, que eram agrupados em nove linhas
+                        com 12 espaços cilíndricos. Nesses cilindros eram encaixados os tambores, que, depois de
+                        programados manualmente, por meio de cartões com pequenos furos, giravam simultaneamente,
+                        combinando as letras de cada tambor com as mensagens captadas em agrupamentos de três letras.
+                    </p>
+                </div>
+
+                <div class="col-12">
+                    <h2>Simulador da Maquina Bombe</h2>
+
+                    <p>Acesse o link: <a target="_blank"
+                            href="http://www.lysator.liu.se/~koma/turingbombe/bombe-simulator/">http://www.lysator.liu.se/~koma/turingbombe/bombe-simulator/</a>
+                    </p>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-center text-white">
+
+        <div class="container_f p-4 pb-0">
+
+            <section class="mb-4">
+
+                <a target="_blank" href="https://www.facebook.com/arthur.wernerlira/" role="button"><img
+                        src="img/facebook.png" alt=""></a>
+
+                <a target="_blank" href="https://www.google.com.br/" role="button"><img src="img/google.png" alt=""></a>
+
+
+                <a target="_blank" href="https://www.instagram.com/arthurwernerlira/" role="button"><img
+                        src="img/instagram.png" alt=""></a>
+
+                <a target="_blank" href="https://github.com/wernerliraarthur" role="button"><img src="img/github.png"
+                        alt=""></a>
+            </section>
+
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <p class="Desenvolvido">Desenvolvido por: Arthur Werner Lira</p>
+            <p>© 2022 Direitos autorais: <a target="_blank"
+                    href="https://pt.wikipedia.org/wiki/Enigma_(m%C3%A1quina)">wikipedia</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
