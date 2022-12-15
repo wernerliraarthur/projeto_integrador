@@ -126,10 +126,12 @@
 
 .card h5 {
     color: red;
+    text-decoration: underline #f0f0f0;
 }
 
 .card p {
     color: black;
+    text-decoration: underline #f0f0f0;
 }
 
 .card:hover {
