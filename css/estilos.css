@@ -117,25 +117,27 @@
 
 .card {
     transition: 0.4s;
+    text-decoration: underline #ffffff;
 }
 
 .card a {
-    text-decoration: none;
+    text-decoration: underline #ffffff;
     color: black;
 }
 
 .card h5 {
     color: red;
-    text-decoration: underline #f0f0f0;
+    text-decoration: underline #ffffff;
 }
 
 .card p {
     color: black;
-    text-decoration: underline #f0f0f0;
+    text-decoration: underline #ffffff;
 }
 
 .card:hover {
     background-color: #9b9d9e82;
+    text-decoration: underline #9b9d9e82;
     border: 1px black solid;
 }
 
